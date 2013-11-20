@@ -1,8 +1,25 @@
 ﻿<Window x:Class="TemplateMVVM.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:TemplateMVVM.ViewModel"
+        xmlns:v="clr-namespace:TemplateMVVM.View"
         Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <vm:ApplicationVM/>
+    </Window.DataContext>
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vm:Temp1VM}">
+            <v:Temp1/>
+        </DataTemplate>
+    </Window.Resources>
     <Grid>
-        
+        <ItemsControl ItemsSource="{Binding Pages}">
+            <ItemsControl.ItemTemplate >
+                <DataTemplate>
+                    <Button  Content="{Binding Name}" Command="{Binding DataContext.ChangePageCommand, RelativeSource={RelativeSource AncestorType={x:Type Window}}}" CommandParameter="{Binding}"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        <ContentControl Content="{Binding CurrentPage}"/>
     </Grid>
 </Window>

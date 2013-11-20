@@ -12,7 +12,7 @@ namespace TemplateMVVM.ViewModel
     {
         public ApplicationVM()
         {
-            //Pages.Add(new Temp1VM());
+            Pages.Add(new Temp1VM());
 
             CurrentPage = Pages[0];
 

@@ -22,3 +22,7 @@ C:\Users\Tomas'\Documents\Git\MVVMTemplateProject\TemplateMVVM\TemplateMVVM\obj\
 C:\Users\Tomas'\Documents\Git\MVVMTemplateProject\TemplateMVVM\TemplateMVVM\obj\Debug\TemplateMVVM.pdb
 C:\Users\Tomas'\Documents\Git\MVVMTemplateProject\TemplateMVVM\TemplateMVVM\obj\Debug\View\MainWindow.baml
 C:\Users\Tomas'\Documents\Git\MVVMTemplateProject\TemplateMVVM\TemplateMVVM\obj\Debug\View\MainWindow.g.cs
+C:\Users\Tomas'\Documents\Git\MVVMTemplateProject\TemplateMVVM\TemplateMVVM\obj\Debug\TemplateMVVM_MarkupCompile.lref
+C:\Users\Tomas'\Documents\Git\MVVMTemplateProject\TemplateMVVM\TemplateMVVM\obj\Debug\View\Temp1.baml
+C:\Users\Tomas'\Documents\Git\MVVMTemplateProject\TemplateMVVM\TemplateMVVM\obj\Debug\View\Temp1.g.cs
+C:\Users\Tomas'\Documents\Git\MVVMTemplateProject\TemplateMVVM\TemplateMVVM\obj\Debug\GeneratedInternalTypeHelper.g.cs
